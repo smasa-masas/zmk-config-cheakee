@@ -100,6 +100,11 @@
             key-positions = <13 12>;
             layers = <0>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+        };
     };
 
     behaviors {
@@ -223,13 +228,13 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &hmr_l LEFT_GUI S  &hmr_l LEFT_ALT D  &hmr_l_2 LEFT_SHIFT F  &hmr_l_2 LCTRL G  &hmr_r_2 RCTRL H  &hmr_r_2 RIGHT_SHIFT J  &hmr_r RIGHT_ALT K  &hmr_r RIGHT_GUI L  &lt_arrow 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &lt_thumb 1 SPACE  &none  &lt_thumb 2 ENTER  &none
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RC(LEFT_SHIFT) A  &hmr_l LEFT_CONTROL S  &hmr_l LEFT_ALT D  &hmr_l_2 LEFT_SHIFT F  &hmr_l_2 LCTRL G  &hmr_r_2 RCTRL H  &hmr_r_2 RIGHT_SHIFT J  &hmr_r RIGHT_ALT K  &hmr_r RIGHT_GUI L  &lt_arrow 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt_scroll 3 M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)  &lt_thumb 1 SPACE  &lt 3 BACKSPACE  &lt_thumb 2 ENTER  &none
             >;
         };
 
         layer1 {
             bindings = <
-&none  &none  &none  &none  &bootloader  &kp EQUAL  &kp LS(LEFT_BRACKET)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp LS(EQUAL)  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT3  &trans  &trans  &trans  &trans
+&kp LS(F4)  &kp LS(NUMBER_2)  &kp LS(NUMBER_6)  &none  &bootloader  &kp KP_PLUS  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(KP_MULTIPLY)  &kp N4  &kp N5  &kp N6  &kp RS(KP_SLASH)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp N0  &kp N1  &kp N2  &kp N3  &kp DOT  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -241,13 +246,19 @@
 
         layer3 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &kp UP  &none  &bootloader  &mo 4  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &kp DELETE  &trans  &trans
+&mo 4  &none  &none  &none  &kp LS(LG(S))  &kp LA(SEMI)  &kp LC(PAGE_UP)  &kp UP  &kp PAGE_DOWN  &bootloader  &trans  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &kp DELETE  &trans  &trans
             >;
         };
 
         layer4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&kp LS(F4)  &kp LS(NUMBER_2)  &kp LS(NUMBER_6)  &none  &bootloader  &kp EQUAL  &kp LS(LEFT_BRACKET)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp LS(EQUAL)  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp LS(INTERNATIONAL_1)  &trans  &trans  &trans  &trans
             >;
         };
     };
