@@ -342,12 +342,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="504" y="147" class="combo tap">あいう</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="434" y="78" width="28" height="26" class="combo"/>
-<text x="448" y="91" class="combo tap">LCLK</text>
+<rect rx="6" ry="6" x="434" y="50" width="28" height="26" class="combo"/>
+<text x="448" y="63" class="combo tap">LCLK</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="490" y="78" width="28" height="26" class="combo"/>
-<text x="504" y="91" class="combo tap">RCLK</text>
+<rect rx="6" ry="6" x="490" y="22" width="28" height="26" class="combo"/>
+<text x="504" y="35" class="combo tap">RCLK</text>
 </g>
 <g class="combo combopos-4">
 <path d="M476,61 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
@@ -370,8 +370,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="112" y="35" class="combo tap">ESC</text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="490" y="22" width="28" height="26" class="combo"/>
-<text x="504" y="35" class="combo tap">&quot;</text>
+<rect rx="6" ry="6" x="490" y="78" width="28" height="26" class="combo"/>
+<text x="504" y="91" class="combo tap">&quot;</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="434" y="22" width="28" height="26" class="combo"/>
@@ -382,11 +382,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="448" y="147" class="combo tap">:</text>
 </g>
 <g class="combo combopos-11">
-<path d="M476,93 l-37,3" class="combo"/>
-<path d="M476,93 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="462" y="80" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="434" y="106" width="28" height="26" class="combo"/>
 <a href="#layer3">
-<text x="476" y="93" class="combo tap layer-activator">layer3</text>
+<text x="448" y="119" class="combo tap layer-activator">layer3</text>
 </a></g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
@@ -419,7 +417,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(252, 56)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+<text x="0" y="0" class="key tap">!</text>
 </g>
 <g transform="translate(364, 56)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -661,6 +659,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(252, 168)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 <g transform="translate(364, 168)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

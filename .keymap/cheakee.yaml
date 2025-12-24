@@ -40,7 +40,7 @@ layers:
   - '"'
   - Sft+6
   - Sft+-
-  - '&bootloader'
+  - '!'
   - KP PLUS
   - '7'
   - '8'
@@ -95,7 +95,7 @@ layers:
   - '*'
   - '-'
   - +
-  - ''
+  - '&bootloader'
   - F11
   - F12
   - ','
@@ -217,10 +217,10 @@ combos:
 - p: [27, 28]
   k: あいう
   l: [default]
-- p: [16, 17]
+- p: [16, 7]
   k: LCLK
   l: [default]
-- p: [17, 18]
+- p: [7, 8]
   k: RCLK
   l: [default]
 - p: [18, 16]
@@ -237,7 +237,7 @@ combos:
 - p: [1, 2]
   k: ESC
   l: [default]
-- p: [7, 8]
+- p: [17, 18]
   k: '"'
   l: [default]
 - p: [6, 7]
@@ -246,7 +246,7 @@ combos:
 - p: [26, 27]
   k: ':'
   l: [default]
-- p: [16, 17, 18]
+- p: [17, 26]
   k: layer3
   l: [default]
 - p: [13, 12]
