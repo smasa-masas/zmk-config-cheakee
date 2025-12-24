@@ -25,7 +25,7 @@
 
         LeftClick {
             bindings = <&mkp LCLK>;
-            key-positions = <16 17>;
+            key-positions = <16 7>;
             layers = <0>;
             require-prior-idle-ms = <150>;
             timeout-ms = <30>;
@@ -33,7 +33,7 @@
 
         RightClick {
             bindings = <&mkp RCLK>;
-            key-positions = <17 18>;
+            key-positions = <7 8>;
             layers = <0>;
             require-prior-idle-ms = <150>;
             timeout-ms = <30>;
@@ -70,7 +70,7 @@
 
         DoubleQuote {
             bindings = <&kp LS(NUMBER_2)>;
-            key-positions = <7 8>;
+            key-positions = <17 18>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
@@ -91,7 +91,7 @@
 
         Scroll {
             bindings = <&mo 3>;
-            key-positions = <16 17 18>;
+            key-positions = <17 26>;
             layers = <0>;
         };
 
@@ -237,7 +237,7 @@
 
         layer1 {
             bindings = <
-&kp LS(F4)        &kp LS(NUMBER_2)  &kp LS(NUMBER_6)  &kp LS(MINUS)     &bootloader       &kp KP_PLUS          &kp N7  &kp N8  &kp N9  &kp KP_MINUS
+&kp LS(F4)        &kp LS(NUMBER_2)  &kp LS(NUMBER_6)  &kp LS(MINUS)     &kp LS(NUMBER_1)  &kp KP_PLUS          &kp N7  &kp N8  &kp N9  &kp KP_MINUS
 &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(KP_MULTIPLY)  &kp N4  &kp N5  &kp N6  &kp RS(KP_SLASH)
 &trans            &trans            &trans            &trans            &trans            &kp N0               &kp N1  &kp N2  &kp N3  &kp DOT
 &trans            &trans            &trans            &trans
@@ -248,7 +248,7 @@
             bindings = <
 &kp F1        &kp F2                        &kp F3                        &kp F4                          &kp F5                     &kp F6                     &kp F7                           &kp F8                         &kp F9                         &kp F10
 &kp NUMBER_1  &hmr_num_l LEFT_GUI NUMBER_2  &hmr_num_l LEFT_ALT NUMBER_3  &hmr_num_l LEFT_SHIFT NUMBER_4  &hmr_num_l LCTRL NUMBER_5  &hmr_num_r RCTRL NUMBER_6  &hmr_num_r RIGHT_SHIFT NUMBER_7  &hmr_num_r RIGHT_ALT NUMBER_8  &hmr_num_r RIGHT_GUI NUMBER_9  &kp NUMBER_0
-&kp SLASH     &kp LS(SINGLE_QUOTE)          &kp MINUS                     &kp LS(SEMICOLON)               &none                      &kp F11                    &kp F12                          &kp COMMA                      &kp DOT                        &none
+&kp SLASH     &kp LS(SINGLE_QUOTE)          &kp MINUS                     &kp LS(SEMICOLON)               &bootloader                &kp F11                    &kp F12                          &kp COMMA                      &kp DOT                        &none
 &trans        &trans                        &trans                        &trans
             >;
         };
