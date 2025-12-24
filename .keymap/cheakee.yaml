@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: LEFT CONTROL}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: ⌃}
@@ -23,49 +23,49 @@ layers:
   - {t: '-', h: layer3}
   - Z
   - X
-  - C
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - V
   - B
   - N
   - {t: M, h: layer3}
   - ','
   - .
-  - /
+  - Sft+INTERNATIONAL 1
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - ''
+  - {t: '$$mdi:backspace$$', h: layer3}
   - {t: '$$mdi:keyboard-return$$', h: layer2}
   - ''
   layer1:
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - ^
-  - '`'
-  - '['
-  - ']'
-  - '@'
-  - '!'
+  - Sft+F4
   - '"'
+  - Sft+6
+  - Sft+-
+  - '&bootloader'
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - KP MINUS
+  - Sft+8
+  - Sft+9
   - '#'
   - $
   - '%'
-  - '&'
-  - ''''
-  - (
-  - )
-  - _
-  - /
-  - '*'
-  - '-'
-  - +
-  - ''
-  - '|'
-  - '~'
-  - '{'
-  - '}'
-  - ¥
+  - Sft+KP MULTIPLY
+  - '4'
+  - '5'
+  - '6'
+  - Sft+KP SLASH
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,31 +106,31 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   layer3:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:chevron-up$$
-  - ''
-  - '&bootloader'
   - layer4
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - ⌃
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+S
+  - Alt+;
+  - Ctl+PAGE UP
+  - $$mdi:chevron-up$$
+  - Ctl+PAGE DOWN
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - $$mdi:chevron-left$$
   - $$mdi:chevron-down$$
   - $$mdi:chevron-right$$
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer4:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,7 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,6 +171,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '5':
+  - Sft+F4
+  - '"'
+  - Sft+6
+  - ''
+  - '&bootloader'
+  - ^
+  - '`'
+  - '['
+  - ']'
+  - '@'
+  - '!'
+  - '"'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - ''''
+  - (
+  - )
+  - _
+  - /
+  - '*'
+  - '-'
+  - +
+  - ''
+  - '|'
+  - '~'
+  - '{'
+  - '}'
+  - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,3 +252,5 @@ combos:
 - p: [13, 12]
   k: $$mdi:backspace$$
   l: [default]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse$$
