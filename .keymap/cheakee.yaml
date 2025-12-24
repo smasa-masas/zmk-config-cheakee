@@ -12,8 +12,8 @@ layers:
   - O
   - P
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: LEFT CONTROL}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - S
+  - D
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: ⌃}
   - {t: H, h: ⌃}
@@ -21,7 +21,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '-', h: layer3}
-  - Z
+  - {t: Z, h: ⌃}
   - X
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - V
@@ -31,8 +31,8 @@ layers:
   - ','
   - .
   - Sft+INTERNATIONAL 1
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: '$$mdi:backspace$$', h: layer3}
+  - {t: '`', h: layer1}
+  - {t: '$$mdi:keyboard-space$$', h: layer3}
   - {t: '$$mdi:keyboard-return$$', h: layer2}
   - ''
   layer1:
@@ -228,13 +228,13 @@ combos:
   l: [default]
   a: top
   o: 0.15
-- p: [11, 12]
+- p: [11, 10]
   k: Tab
   l: [default]
 - p: [13, 16]
   k: '&caps_word'
   l: [default]
-- p: [1, 2]
+- p: [1, 0]
   k: ESC
   l: [default]
 - p: [17, 18]
@@ -254,3 +254,6 @@ combos:
   l: [default]
 - p: [8, 9]
   k: $$mdi:backspace-reverse$$
+- p: [32, 25]
+  k: $$mdi:backspace$$
+  l: [default]
